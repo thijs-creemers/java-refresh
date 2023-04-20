@@ -3,8 +3,10 @@
  *
  */
 package com.intraxxion.app;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 
 public class App
 {
@@ -19,3 +21,6 @@ public class App
         logger.debug("Hello World DBG!");
     }
 }
+
+
+
