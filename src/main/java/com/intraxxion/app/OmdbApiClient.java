@@ -25,8 +25,8 @@ public class OmdbApiClient {
 //                .authenticator(Authenticator.getDefault())
                 .build();
 
-        String apiKey = "1e33b3bf";
         String movieTitle = "Top+Gun";
+        String apiKey = "1e33b3bf";
         String uri = "https://www.omdbapi.com/?apikey=" + apiKey + "&t=" + movieTitle + "&plot=full";
         Movie movie = null;
 
